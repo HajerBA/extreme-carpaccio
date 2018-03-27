@@ -15,7 +15,7 @@ class Order
 
     }
 
-    public function calculBrut() {
+    public function calculBrut(  ) {
         $this->prices = [];
         $this->quantities = [];
         $total = 0;
